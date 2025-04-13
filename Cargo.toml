@@ -1,0 +1,19 @@
+[package]
+name = "grrs"
+version = "0.1.0"
+edition = "2024"
+authors = ["Christian Salais <chrissal0604@gmail.com>"]
+license = "MIT"
+description = "A tool to search files"
+readme = "README.md"
+homepage = "https://github.com/Csalais3"
+repository = "https://github.com/Csalais3/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+
+[dependencies]
+anyhow = "1.0.97"
+clap = { version = "4.5.36", features = ["derive"] }
+indicatif = "0.17.11"
+log = "0.4.27"
